@@ -1,0 +1,38 @@
+/* App.css */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #d96bb5df, #f87de1);
+}
+
+.Card {
+  background-color: #c12458; /* Light pink background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.Button {
+  background-color: #ff69b4; /* Hot pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #ff69b4;
+}
+*{
+  margin: 0;
+}
